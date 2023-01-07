@@ -159,6 +159,9 @@ p {
 
 }
  
+.footer ul {
+  list-style-type: none;
+  }
 
 .footer{
   display: flex;
