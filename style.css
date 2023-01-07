@@ -76,11 +76,12 @@ h4 {
 }
 
 
-.container {
+.logos {
   display: flex;
   justify-content: space-around;
   margin: 40px;
 }
+
 
 .row {
   display: flex;
