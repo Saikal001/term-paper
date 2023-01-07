@@ -160,10 +160,12 @@ p {
 }
  
 
-.footer {
+.footer{
   display: flex;
   background-color: #20003C;
   color:white;
   margin-top: 20px;
   padding: 0;
+   
 }
+
