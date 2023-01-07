@@ -180,8 +180,13 @@ p {
   padding: 5px;
 }
 
-
-
+.footer-down ul {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #20003C;
+  margin-top: 0;
+ padding: 20px;
+}
 
 
 
