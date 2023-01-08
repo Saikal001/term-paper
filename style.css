@@ -159,7 +159,11 @@ p {
   
 
 }
+.img{
+  display: flex;
 
+  justify-items: center;
+}
 .card{
   
 
@@ -167,7 +171,13 @@ p {
   padding: 15%;
   
 }
- 
+.card.card-content{
+  padding: 10px 15px;
+
+}
+a{
+  justify-content: center;
+}
 .footer ul {
   list-style-type: none;
   }
