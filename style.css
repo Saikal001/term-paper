@@ -29,10 +29,14 @@ nav ul li a:hover {
   padding: 10px 15px;
   border-radius: 5px;
 }
-.nav{
+.log{
   
-  padding-right: 10%;
+  padding-right: 20%;
 }
+.nav{
+  padding-right: 20%;
+}
+
 
 header {
   background-image: url(./q2.png);
