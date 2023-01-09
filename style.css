@@ -44,11 +44,7 @@ header {
   align-items: center;
   padding-left: 50px;
 }
-.container{
-  max-width: 987px;
-  
- 
-}
+
 h2 {
   font-size: 56px;
 }
@@ -165,7 +161,7 @@ p {
 }
 .img{
   display: flex;
-
+text-align: center;
   justify-items: center;
 }
 .card{
