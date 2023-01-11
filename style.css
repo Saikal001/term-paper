@@ -6,19 +6,20 @@
 a {
   color:#6F2DFF;
   text-decoration: none;
-  transition: 4s;
+  
 
 }
 ul li {
   list-style-type: none;
+  display: inline;
 
 }
 button {
   display: block;
   border: none;
   background-color: transparent;
-  cursor: pointer;
-  transition: 4s;
+ 
+  
 }
 .container{
   max-width: 1140px;
@@ -39,6 +40,26 @@ nav ul li a:hover {
   align-items: center;
   padding: 20px 0;
 }
+ .header-nav_item {
+display: inline-block;
+margin-right: 25px;
+font-size: 18px;
+
+ }
+
+ .header-nav_item:last-child {
+margin-right: 0;
+ }
+
+ .header.user_item {
+  display: inline-block;
+  margin-right: 30px;
+ }
+
+ .header.user_item:last-child {
+  margin-right: 0 ;
+ }
+
 
 
 header {
@@ -46,13 +67,7 @@ header {
   width: 100%;
   height: 537px;
   
-  text-align: left;
   
-
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  padding-left: 50px;
 }
 
 h2 {
