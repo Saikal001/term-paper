@@ -189,6 +189,12 @@ text-align: center;
 a{
   justify-content: center;
 }
+.number-2{
+  text-align: center ;
+}
+button{
+
+}
 .footer ul {
   list-style-type: none;
   }
