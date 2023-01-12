@@ -92,10 +92,10 @@ header {
   line-height: 27px;
 }
 .banner_link {
-  color: white;
+ color: white;
   font-size: 18px;
   font-weight: 500;
-  background-color: #6F2DFF;
+  background-color: #6F2DFF; 
   border-radius: 20px;
   padding: 10px 15px;
 }
@@ -178,6 +178,7 @@ h4 {
 
 .col-4 {
   flex: 33.3% 0 0;
+  
 }
 
 .col-3 {
@@ -282,4 +283,12 @@ a{
 padding-right: 30%;
 }
 
+.purple{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #6F2DFF; 
+  
+  padding: 10px 15px;
+}
 
