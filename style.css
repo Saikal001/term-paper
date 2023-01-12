@@ -188,6 +188,18 @@ h4 {
   flex: 8.3% 0 0;
 }
 
+.left{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
 
 h5 {
   font-size: 18px;
@@ -206,7 +218,7 @@ h1 {
 p {
   text-align: center;
   
-  
+
 }
 .img{
   display: flex;
@@ -234,9 +246,7 @@ a{
 .number-2{
   text-align: center ;
 }
-button{
 
-}
 .footer ul {
   list-style-type: none;
   }
