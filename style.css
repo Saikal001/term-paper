@@ -92,10 +92,10 @@ header {
   line-height: 27px;
 }
 .banner_link {
- color: white;
+  color: white;
   font-size: 18px;
   font-weight: 500;
-  background-color: #6F2DFF; 
+  background-color: #6F2DFF;
   border-radius: 20px;
   padding: 10px 15px;
 }
@@ -272,23 +272,14 @@ a{
   padding: 5px;
 }
 
-.footer-down ul {
-  display: flex;
-  justify-content: flex-end;
+.footer-down {
+  text-align: center;
   background-color: #20003C;
-  margin-top: 0;
- padding: 20px;
+  
 }
 .center {
 padding-right: 30%;
 }
 
-.purple{
-  color: white;
-  font-size: 18px;
-  font-weight: 500;
-  background-color: #6F2DFF; 
-  
-  padding: 10px 15px;
-}
+.purple{}
 
