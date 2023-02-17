@@ -240,8 +240,8 @@ p {
 }
 .img{
   display: flex;
-text-align: center;
-  justify-items: center;
+    text-align: center;
+    justify-content: center;;
   padding-right : 30%;
 }
 .center{
@@ -291,7 +291,9 @@ a{
   
 }
 .center {
-padding-right: 30%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 .purple{}
@@ -319,4 +321,25 @@ width: 60%;
   width: 30%;
   height: 300px;
   background:#17002E ;
+}
+
+
+.img {
+  
+  padding: 0 ;
+  margin: 0 ;
+}
+
+
+.banner_txt{
+  max-width: 438px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 0;
+  margin: 40px 0 0;
+}
+.one {
+  display: flex;
+    justify-content: left;
 }
