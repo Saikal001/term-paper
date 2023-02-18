@@ -286,9 +286,15 @@ a{
 }
 
 .footer-down {
-  text-align: center;
+  display: flex;
   background-color: #20003C;
-  
+  width: 73px;
+height: 21px;
+left: calc(50% - 73px/2 + 0.5px);
+top: -0.25px;
+
+background: url(.png);
+border-radius: 0px;
 }
 .center {
   display: flex;
