@@ -67,9 +67,12 @@ margin-right: 0;
 
 
 header {
-  padding:15%;
+  
   background-image: url(./q2.png);
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+  ;
   
   
 }
@@ -87,7 +90,7 @@ header {
 
 .banner_text {
   display: block;
-  font-size: 18px;
+  font-size: 18px;      
   font-weight: 400;
   line-height: 27px;
 }
@@ -348,4 +351,39 @@ width: 60%;
 .one {
   display: flex;
     justify-content: left;
+}
+
+
+.section-specialize .container .card {
+  background-color: rgba(23, 0, 46, 1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 17px 10px;
+  height: 90%;
+}
+ .section-specialize .card-near {
+  display: flex;
+} 
+.section-specialize .container .card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 1vw;
+}
+.section-specialize .card p {
+  font-size: 15px;
+}
+.section-specialize .card span {
+  text-align: center;
+  font-size: 13px;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.card_top{
+  display: flex;
+  align-items: center;
+}
+.card_top img{
+  margin-right: 17px;
 }
