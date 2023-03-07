@@ -31,52 +31,27 @@ button {
   padding: 0 15px;
 }
 
-nav ul li a:hover {
-  background-color: rgb(0, 94, 255);
 
-  padding: 10px 15px;
-  border-radius: 5px;
-}
 
 .header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-}
- .header-nav_item {
-display: inline-block;
-margin-right: 25px;
-font-size: 18px;
-
- }
-
- .header-nav_item:last-child {
-margin-right: 0;
- }
-
- .header.user_item {
-  display: inline-block;
-  margin-right: 30px;
- }
-
- .header.user_item:last-child {
-  margin-right: 0 ;
- }
-
-
-
-header {
-  
   background-image: url(./q2.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  
-  ;
-  
+  background-size: cover;
+}
+ 
+ nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
   
 }
 
+ 
 .banner {
   width: 460px;
   margin-right: auto;
