@@ -34,7 +34,7 @@ button {
 
 
 .header{
-  background-image: url(./q2.png);
+  background-image: url(/q2.png);
   background-size: cover;
 }
  
@@ -63,6 +63,15 @@ button {
   font-size: 12px;
   color: white;
 
+}
+
+.qubit {
+  padding: 5px 20px;
+  height: 24px;
+  width: 79px;
+  top: 20px;
+  border-radius: 0px;
+  
 }
  
 .nav-item .banner-link .nav-link {
