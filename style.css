@@ -391,9 +391,39 @@ text-align: center;
 
 
 
-.link {
+.book-today {
   background-image: url(/purpure.png);
+  background-size: cover;
+}
+
+.book-button {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
   display: flex;
-  align-items: center;
-text-align: center;
+  justify-content: center;
+  padding: 10px 10px;
+  padding-bottom: 15vh;
+}
+
+.book-button-left {
+  background-color: white;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin: 0;
+  padding: 10px 15px;
+  padding-right: 10vw;
+  border: none;
+  color: rgba(0, 0, 0, 0.27);
+}
+
+.book-button-right {
+padding: 10px 25px;
+  margin: 0;
+  margin-left: -5px;
+  background-color: rgba(111, 44, 255, 1);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: none;
+  color: white;
 }
