@@ -34,8 +34,12 @@ button {
 
 
 .header{
-  background-image: url(/q2.png);
-  background-size: cover;
+  background-image: url(./q2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px 20px;
+  size: 100%;
+  
 }
  
  nav {
@@ -44,39 +48,13 @@ button {
 }
 .nav {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-around;
   padding: 0;
   margin: 0;
   
 }
 
-.banner-link {
-  margin-left: auto;
-  background-color: rgba(111, 44, 255, 1);
-  border-radius: 25px;
-  border: none;
-  padding: 5px 20px;
-  margin-right: 20px;
-  margin-top: 5px;
-  margin-bottom: 40%;
-  font-size: 12px;
-  color: white;
-
-}
-
-.qubit {
-  padding: 5px 20px;
-  height: 24px;
-  width: 79px;
-  top: 20px;
-  border-radius: 0px;
-  
-}
- 
-.nav-item .banner-link .nav-link {
-display: inline-flexbox;
-}
 
 
 
@@ -89,23 +67,9 @@ display: inline-flexbox;
 
 
 
-.banner {
-  width: 460px;
-  margin-right: auto;
-}
 
-.banner_trend {
-  display: block;
-  font-size: 54px;
-  
-}
 
-.banner_text {
-  display: block;
-  font-size: 18px;      
-  font-weight: 400;
-  line-height: 27px;
-}
+
 
 h2 {
   font-size: 56px;
