@@ -13,50 +13,48 @@
 
 
   <link rel="stylesheet" href="./style.css">
-  <title>Document</title>
+  <title>Course work</title>
 </head>
 
 <body>
 
 
-
-  <nav class="header-nav">
-    <img class="qubit"  src="/q1.png" alt="">
+  <nav class="topbar">
+    <img src="/qubit.png" alt="logotip Qubit" />
     <ul class="nav">
-      <li class="header-nav_item"><a href="#">Why Qubit?</a></li>
-      <li class="header-nav_item"><a href="#">Products</a></li>
-      <li class="header-nav_item"><a href="#">Solutions</a></li>
-      <li class="header-nav_item"><a href="#">Customers</a></li>
-      <li class="header-nav_item"><a href="#" class="nav-item">Case studies</a></li>
-      <li class="header-nav_item"><a href="#" class="nav-item">Resources</a></li>
-      <li class="header-nav_item"><a href="#" class="nav-item">More</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Who Qubit?</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Solutions</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Customers</a></li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Case studies</a>
+      </li>
+      <li class="nav-item"><a href="#" class="nav-link">Resoucers</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">More</a></li>
     </ul>
-
-    <ul>
-      <button class="banner-link"><a href="#">Book a demo</a></button>
-      <li><a href="#" class="nav-link">Log in</a></li>
-    </ul>
-
-    </ul>
+    <button class="nav-button">Book a demo</button>
+    <a href="#" class="nav-linking"> Log In</a>
   </nav>
   <header>
-    <div class="banner-wrap">
-
-      <div class="banner">
-        <div class="container">
-          <span class="banner_text">Driving growth with personalization.</span>
-          <b class="banner_trend">Make ecommerce</b>
-          <b class="banner_trend-violet">More personal</b>
-          <p class="banner_txt">Hundreds of brands use <b>Qubit CommerceAl</b> to power the next generation of product
-            recommendations, badging and insights to build exceptional customer experiences.
+    <div class="container">
+      <div class="header-content">
+        <div class="head">
+          <span>Driving growth with personalization.</span>
+          <h1>Make ecommerce</h1>
+          <h1 id="h1">More personal.</h1>
+          <p>
+            Hundreds of brands use <strong>Qubit CommerceAI</strong>to power
+            <br />
+            the next generation of product recommendations, <br />
+            badging and insights to build exceptional customer <br />
+            experiences.
           </p>
-          <div class="form-group">
-            <input class="form-field" type="email" placeholder="Email">
-            <span>Demo book</span>
+          <div class="head-button">
+            <button id="head-button-left">Enter your email</button>
+            <button id="head-button-right">Book a demo</button>
           </div>
         </div>
       </div>
-    </div>
     </div>
   </header>
 
@@ -421,189 +419,124 @@
 
 
 
-          <section class="main_banner">
-            <img src="./kr.png" alt="picture" />
-            <div class="ecosystem">
-              <div class="started_banner">
-                <b class="banner_trend">A connected ecosystem.</b>
-
-                <span class="banner_text">The Qubit personalization platform is designed with enterprise and high-growth
-                  businesses in mind.</span>
-
-                <span class="banner_text">Our open ecosystem approach means you can connect any data source and deliver
-                  personalization </span>
-                <span class="banner_text">across any channel.</span>
+          <section class="section-ecosystem">
+            <div class="container">
+              <div class="section-ecosystem-content">
+                <div class="section-ecosystem-content-left-side">
+                  <h1>A connected ecosystem.</h1>
+                  <p>The Qubit personalization platform is designed with enterprise and high-growth businesses in mind.</p>
+                  <p>Our open ecosystem approach means you can connect any data source and deliver personalization <br>
+                    across
+                    any
+                    channel.</p>
+                  <button>See our integrations</button>
+                </div>
+                <div class="section-ecosystem-right-side">
+                  <img src="./kr.png" alt="image Qubit ecosystem">
+                </div>
               </div>
-              
             </div>
           </section>
-
-
-
-
-
-
-
-
-
-
-          
-
-
-
-          <div class="book-today">
+          <section class="section-book-demo">
             <div class="container">
-              <div class="header2">
-                <p>Book a demo today.</p>
-                <div class="book-button">
-                  <button class="book-button-left">Enter your email</button>
-                  <button class="book-button-right">Book a demo</button>
+              <div class="section-book-demo-content">
+                <h1>Book a demo today.</h1>
+                <div class="section-book-demo-button">
+                  <button id="section-book-demo-button-left">Enter your email</button>
+                  <button id="section-book-demo-button-right">Book a demo</button>
                 </div>
               </div>
             </div>
+          </section>
+          <section class="section-connect">
+            <div class="container">
+              <div class="section-connect-content">
+                <div class="connect-image"><img src="./images" alt="image Hidhest User Adaption">
+                </div>
+                <p>Connect with us</p>
+                <div class="section-connect-icons">
+                  <img src="./images/section-connect-icon1.png" alt="icon Facebook">
+                  <img src="./images/section-connect-icon2.png" alt="icon Twitter">
+                  <img src="./images/section-connect-icon3.png" alt="icon Linkedin">
+                  <img src="./images/section-connect-icon4.png" alt="icon Instagram">
+                  <img src="./images/section-connect-icon5.png" alt="icon YouTube">
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+      </main>
+      <footer>
+        <div class="container">
+          <div class="content">
+            <div class="footer-content featured">
+              <h3>Featured Capabilities</h3>
+              <div class="featured1">
+                <ul>
+                  <li><a href="#">A/B testing</a></li>
+                  <li><a href="#">Abandonment recovery</a></li>
+                  <li><a href="#">Customer insights</a></li>
+                  <li><a href="#">Customer polling and feedback</a></li>
+                  <li><a href="#">Customer segmentation</a></li>
+                  <li><a href="#">Data collection</a></li>
+                  <li><a href="#">Ecommerce merchandising</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#">Custom machine learning</a></li>
+                  <li><a href="#">Journey Personalization</a></li>
+                  <li><a href="#">Mobile app personalization</a></li>
+                  <li><a href="#">Cross-channel personalization</a></li>
+                  <li><a href="#">Social proofing</a></li>
+                  <li><a href="#">Website personalization</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-content products">
+              <h3>Products</h3>
+              <ul>
+                <li><a href="#">1:1 Product recommendations</a></li>
+                <li><a href="#">1:1 Product badging</a></li>
+                <li><a href="#">1:1 Journey personalization</a></li>
+                <li><a href="#">Personalized content</a></li>
+                <li><a href="#">Product insights</a></li>
+              </ul>
+            </div>
+            <div class="footer-content resources">
+              <h3>Resources</h3>
+              <ul>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Qubit Blog.</a></li>
+                <li><a href="#">Glossary</a></li>
+              </ul>
+            </div>
+            <div class="footer-content company">
+              <h3>Company</h3>
+              <ul>
+                <li><a href="#">Why Qubit?</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-content working">
+              <h3>Working with us</h3>
+              <ul>
+                <li><a href="#">Legal</a></li>
+              </ul>
+            </div>
           </div>
-
-          <div class="winter">
-            <img src="/2021.png" alt="">
+          <div class="footer-from-below">
+            <img src="./images/footer-icon.png" alt="icon form earth">
+            <div class="footer-logo">
+              <div class="footer-logotip"></div><img src="./images/logo.jpg" alt="logotip Qubit">
+            </div>
+            <span>© 2021 Qubit. All rights reserved.</span>
           </div>
-          <div class="text-center">
-            <p>Connect with us</p>
-          </div>
-
-          <div class="logos">
-            <img src="/facebook.png" alt="">
-            <img src="/chat.png" alt="">
-            <img src="/in.png" alt="">
-            <img src="inst.png" alt="">
-            <img src="youtube .png" alt="">
-          </div>
-
-
-
-          <div class="container">
-
-            <footer>
-              <div class="footer">
-                <div class="footer-list">
-                  <ul>
-                    <!-- <h1>Feated Capabilities</h1> -->
-                    <li>A/B testing </li>
-                    <li>Abandonment recovery</li>
-                    <li>Customer insights</li>
-                    <li>Customer polling and feedback</li>
-                    <li>Customer segmentation</li>
-                    <li>Data collection</li>
-                    <li>Ecommerce merchandising</li>
-                  </ul>
-                </div>
-
-
-
-                <div class="footer">
-                  <div class="footer-one">
-                    <ul>
-
-                      <li>Custom machine learning </li>
-                      <li>Journey Personalization</li>
-                      <li>Mobile app personalization</li>
-                      <li>Cross-channel personalization</li>
-                      <li>Social proofing</li>
-                      <li>Website personalization</li>
-
-                    </ul>
-                  </div>
-                </div>
-
-
-                <div class="footer">
-                  <div class="footer-two">
-                    <ul>
-                      <h1>Products</h1>
-                      <li>1:1 product recommendations</li>
-                      <li>1:1 Product</li>
-                      <li>1:1 Journey personalization</li>
-                      <li>Personalized content</li>
-                      <li>Product insights</li>
-
-
-                    </ul>
-                  </div>
-                </div>
-
-
-
-
-                <div class="footer">
-                  <div class="footer-three">
-                    <ul>
-                      <h1>Resources</h1>
-                      <li>Resources</li>
-                      <li>Customers</li>
-                      <li>Qubit Blocg.</li>
-                      <li>Glossary</li>
-
-
-
-                    </ul>
-                  </div>
-                </div>
-
-
-
-
-                <div class="footer">
-                  <div class="footer-four">
-                    <ul>
-                      <h1>Company</h1>
-                      <li>About us</li>
-                      <li>Careers</li>
-                      <li>Press</li>
-                      <li>Contact</li>
-
-
-
-                    </ul>
-                  </div>
-                </div>
-
-
-
-
-
-                <div class="footer">
-                  <div class="footer-five">
-                    <ul>
-                      <h1>Working with us</h1>
-                      <li>Legal</li>
-
-
-
-
-                    </ul>
-                  </div>
-                </div>
-
-
-                <div class="footer">
-                  <div class="footer-down">
-
-
-                    <img src="/qubit.png" alt="">
-
-                    <a href="">2021 Qubit. All rights reserved.</a>
-
-                  </div>
-
-
-
-
-
-                </div>
-
-
-
-
-                <footer>
+        </div>
+        </div>
+      </footer>
 </body>
 
 </html>
